@@ -1,0 +1,7 @@
+Running script: Diversityv2.py
+MODEL LOADING: migleolop/Sep1FineTune -- TORCH DEVICE: cuda
+Allocated Memory: 14072.52 MB
+Reserved Memory: 14134.00 MB
+Tokenizer and model loaded.
+Overall Semantic Diversity Score: 0.0657
+Total time taken: 0 hours, 3 minutes, and 15.20 seconds
