@@ -17,22 +17,21 @@ Reopen shell.
 $ conda activate LLAMA 
 
 $ python --version
-Python 3.12.7
+# Python 3.12.7
 
-$ pip install these modules:
+pip install these modules:
 $ pip install huggingface
-
-tranformers
+$ pip install tranformers
 
 $ conda install these modules (faster):
 $ conda install pytorch cudatoolkit -c pytorch
 
 $ nvcc --version
-nvcc: NVIDIA (R) Cuda compiler driver
-Copyright (c) 2005-2024 NVIDIA Corporation
-Built on Fri_Jun_14_16:34:21_PDT_2024
-Cuda compilation tools, release 12.6, V12.6.20
-Build cuda_12.6.r12.6/compiler.34431801_0
+# nvcc: NVIDIA (R) Cuda compiler driver
+# Copyright (c) 2005-2024 NVIDIA Corporation
+# Built on Fri_Jun_14_16:34:21_PDT_2024
+# Cuda compilation tools, release 12.6, V12.6.20
+# Build cuda_12.6.r12.6/compiler.34431801_0
 
 Make sure cuda is detected in system. Use following python script to verify:
 
