@@ -1,0 +1,73 @@
+Running script: ROUGEandBERT.py
+Ground truth file: 1KConvosOpenAIextracted.jsonl being used against Llama generated file: 1KConvosFTLangFilterwPerp.jsonl.
+Average ROUGE-1 F1 Score: 0.1912
+Average ROUGE-2 F1 Score: 0.0414
+Average ROUGE-L F1 Score: 0.1420
+Average BERT Score: 0.6981
+
+Count of ROUGE-1 F1 Score of 0.00: 282
+
+Top 5 highest-scoring examples:
+Custom ID: agent-request-792 | Turn: 6
+User Input: No, nadie me ha dado nada para llevar a Estados Unidos. Todo lo que tengo es lo que he empacado yo mismo. No he recibido paquetes ni artículos de otras personas. Solo estoy aquí para visitar y no tengo ninguna intención de involucrarme en nada sospechoso.
+Ground Truth: Gracias por su respuesta. Ahora, hablemos sobre su llegada. ¿Cómo llegó al aeropuerto y quién lo acompañó en su viaje?
+Model Response: Gracias por su respuesta. Ahora, necesito hacerle algunas preguntas sobre su vuelo. ¿Cuándo llegó al aeropuerto y desde quién fue transportada?
+ROUGE-1 F1 Score: 0.5778
+
+Custom ID: agent-request-743 | Turn: 8
+User Input: No, no tuve ninguna interacción sospechosa en el aeropuerto. La mayoría de las personas eran viajeros como yo, y no noté nada extraño. Solo estaba concentrada en llegar a mi vuelo y encontrar a mi familia.
+Ground Truth: Entiendo. Gracias por su cooperación. Sin embargo, debido a la falta de documentos y algunas respuestas, necesito que espere un momento mientras llamo a mi supervisor para que revise su situación. Agradezco su paciencia.
+Model Response: Okay, gracias por su respuesta. Le pediré que espere un momento mientras llamo a mi superior para discutir la situación. (LLama a su superior)
+ROUGE-1 F1 Score: 0.5902
+
+Custom ID: agent-request-268 | Turn: 8
+User Input: Gracias. Adiós.
+Ground Truth: Adiós. ¡Hasta luego!
+Model Response: Adiós.
+ROUGE-1 F1 Score: 0.6667
+
+Custom ID: agent-request-401 | Turn: 9
+User Input: Igualmente. ¡Que tenga un buen día!
+Ground Truth: Gracias. ¡Igualmente! ¡Hasta luego!
+Model Response: Hasta luego.
+ROUGE-1 F1 Score: 0.6667
+
+Custom ID: agent-request-529 | Turn: 9
+User Input: Hasta luego.
+Ground Truth: ¡Hasta luego!
+Model Response: ¡Hasta luego!
+ROUGE-1 F1 Score: 1.0000
+
+
+Bottom 5 lowest-scoring examples:
+Custom ID: agent-request-6 | Turn: 9
+User Input: Muchas gracias. Aprecio su comprensión y amabilidad. Estoy emocionado por mi viaje y espero disfrutar de mi tiempo con mi familia. ¡Que tenga una buena noche también!
+Ground Truth: De nada, me alegra haber podido ayudar. Espero que tenga un viaje maravilloso y muchas experiencias memorables con su familia. ¡Cuídese y que tenga una excelente noche!
+Model Response: Adiós.
+ROUGE-1 F1 Score: 0.0000
+
+Custom ID: agent-request-7 | Turn: 1
+User Input: Adiós
+Ground Truth: Hola, disculpe que lo interrumpa. Tengo algunas preguntas relacionadas con la seguridad del aeropuerto. ¿Puede decirme a qué ciudad viaja hoy?
+Model Response: ¡Buenos días! ¿Cuál es su destino?
+ROUGE-1 F1 Score: 0.0000
+
+Custom ID: agent-request-9 | Turn: 2
+User Input: Vengo a visitar a unos amigos.
+Ground Truth: Entiendo. Ahora, por favor, dígame más sobre el lugar donde se quedará. ¿Tiene una dirección específica o un hotel reservado?
+Model Response: ¡Interesante! ¿Cuántos amigos va a ver en total?
+ROUGE-1 F1 Score: 0.0000
+
+Custom ID: agent-request-17 | Turn: 2
+User Input: Buenas noches. Estoy aquí de visita. Quiero conocer más sobre Estados Unidos.
+Ground Truth: Entiendo. Ahora, por favor, dígame más sobre los lugares que planea visitar en Estados Unidos. ¿Tiene algún itinerario específico?
+Model Response: ¿Cómo llegó al aeropuerto y desde qué ciudad proviene?
+ROUGE-1 F1 Score: 0.0000
+
+Custom ID: agent-request-21 | Turn: 1
+User Input: Buenos tardes.
+Ground Truth: Buenas tardes. Gracias por su paciencia. Antes de que continúe, necesito hacerle algunas preguntas relacionadas con la seguridad del aeropuerto. ¿Puede mostrarme su identificación y su tarjeta de embarque, por favor?
+Model Response: Hola. ¿Cómo está usted hoy? (How are you today?)
+ROUGE-1 F1 Score: 0.0000
+
+Total time taken: 1 hours, 52 minutes, and 6.63 seconds

@@ -1,0 +1,73 @@
+Running script: ROUGEandBERT.py
+Ground truth file: 1KConvosOpenAIextracted.jsonl being used against Llama generated file: 1KConvosBaseModelLangFilterwPerp.jsonl.
+Average ROUGE-1 F1 Score: 0.1753
+Average ROUGE-2 F1 Score: 0.0312
+Average ROUGE-L F1 Score: 0.1272
+Average BERT Score: 0.6941
+
+Count of ROUGE-1 F1 Score of 0.00: 367
+
+Top 5 highest-scoring examples:
+Custom ID: agent-request-247 | Turn: 6
+User Input: No tuve problemas. Pasé como cualquier otra persona. ¿Por qué me hacen tantas preguntas? Esto es una pérdida de tiempo.
+Ground Truth: Entiendo que puede sentirse frustrado. Sin embargo, estas preguntas son parte de los procedimientos de seguridad. Por último, ¿puede decirme si tiene algún objeto prohibido, como líquidos o armas, en su persona?
+Model Response: Lo entiendo. Sin embargo, es importante seguir las procedimientos de seguridad para garantizar la safety de todos los pasajeros. ¿Sabe si tiene algún objeto prohibido en su persona o en sus belonginges?
+ROUGE-1 F1 Score: 0.5373
+
+Custom ID: agent-request-562 | Turn: 9
+User Input: ¡Muchas gracias! Lo aprecio mucho. ¡Hasta luego!
+Ground Truth: ¡De nada! Me alegra escuchar eso. ¡Hasta luego y que tenga un gran día!
+Model Response: De nada. ¡Que tenga un buen día!
+ROUGE-1 F1 Score: 0.6087
+
+Custom ID: agent-request-634 | Turn: 9
+User Input: Gracias, lo aprecio. ¡Hasta luego!
+Ground Truth: ¡De nada! Me alegra haber podido ayudar. ¡Hasta luego!
+Model Response: De nada, ¡hasta luego!
+ROUGE-1 F1 Score: 0.6154
+
+Custom ID: agent-request-38 | Turn: 9
+User Input: Gracias, cuídate. ¡Hasta luego!
+Ground Truth: ¡De nada! Cuídese también. ¡Hasta luego!
+Model Response: ¡De nada! Hasta luego.
+ROUGE-1 F1 Score: 0.6667
+
+Custom ID: agent-request-268 | Turn: 8
+User Input: Gracias. Adiós.
+Ground Truth: Adiós. ¡Hasta luego!
+Model Response: Adiós.
+ROUGE-1 F1 Score: 0.6667
+
+
+Bottom 5 lowest-scoring examples:
+Custom ID: agent-request-0 | Turn: 1
+User Input: Buenos tardes.
+Ground Truth: Buenas tardes. Lamento interrumpirle, pero he notado que no ha presentado ninguna identificación. ¿Podría explicarme por qué no tiene su documento de identidad con usted?
+Model Response: ¡Buenos días! ¿Cómo estás hoy? (How are you today?)
+ROUGE-1 F1 Score: 0.0000
+
+Custom ID: agent-request-3 | Turn: 2
+User Input: Estoy aquí de vacaciones. Quiero conocer algunos lugares y disfrutar de la cultura.
+Ground Truth: Entiendo. Ahora, por favor, dígame más sobre los lugares específicos que planea visitar durante su estancia. ¿Tiene algún itinerario en mente?
+Model Response: Perfecto. Y cuánto tiempo lleva llevando ese pasaporte actualizado?
+ROUGE-1 F1 Score: 0.0000
+
+Custom ID: agent-request-5 | Turn: 5
+User Input: No tengo ningún dispositivo electrónico conmigo. Solo tengo lo esencial para mi viaje.
+Ground Truth: Entiendo. Sin embargo, es importante que se sigan ciertos protocolos. ¿Puede decirme si ha realizado alguna compra en el extranjero que planea llevar consigo?
+Model Response: Entendido. Finalmente, ¿podría proporcionar una copia de su pasaporte y su tarjeta de identificación, por favor?
+ROUGE-1 F1 Score: 0.0000
+
+Custom ID: agent-request-6 | Turn: 9
+User Input: Muchas gracias. Aprecio su comprensión y amabilidad. Estoy emocionado por mi viaje y espero disfrutar de mi tiempo con mi familia. ¡Que tenga una buena noche también!
+Ground Truth: De nada, me alegra haber podido ayudar. Espero que tenga un viaje maravilloso y muchas experiencias memorables con su familia. ¡Cuídese y que tenga una excelente noche!
+Model Response: Adiós.
+ROUGE-1 F1 Score: 0.0000
+
+Custom ID: agent-request-7 | Turn: 3
+User Input: Vengo de vacaciones. Quiero conocer la ciudad y disfrutar de la cultura.
+Ground Truth: No hay problema. ¿Puede explicarme qué lugares específicos planea visitar en Nueva York? Esto me ayudará a entender mejor su itinerario.
+Model Response: ¡Interesante! Entonces, ¿cómo llegó usted al aeropuerto hoy? ¿Una vuelo propio o un vuelo compartido?
+ROUGE-1 F1 Score: 0.0000
+
+Total time taken: 1 hours, 49 minutes, and 49.33 seconds
