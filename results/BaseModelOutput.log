@@ -1,0 +1,8 @@
+Running script: LanguageFilterTesting.py
+MODEL LOADING: meta-llama/Llama-2-7b-chat-hf USING TORCH DEVICE: cuda
+Allocated Memory: 12852.52 MB
+Reserved Memory: 12854.00 MB
+Tokenizer and model loaded.
+Output file will be :1KConvosBaseModelLangFilterwPerp.jsonl, with 1000 conversations generated from meta-llama/Llama-2-7b-chat-hf
+English Language Filter was used 4544 times!
+Total time taken: 5 hours, 23 minutes, and 28.07 seconds

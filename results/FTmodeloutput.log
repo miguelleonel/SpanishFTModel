@@ -1,0 +1,8 @@
+Running script: LanguageFilterTesting.py
+MODEL LOADING: migleolop/Sep1FineTune USING TORCH DEVICE: cuda
+Allocated Memory: 14072.52 MB
+Reserved Memory: 14134.00 MB
+Tokenizer and model loaded.
+Output file will be :1KConvosFTLangFilterwPerp.jsonl, with 1000 conversations generated from migleolop/Sep1FineTune
+English Language Filter was used 1891 times!
+Total time taken: 8 hours, 33 minutes, and 50.14 seconds
